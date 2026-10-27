@@ -38,6 +38,8 @@ public class Lox {
       if (line == null) break;
       run(line);
     }
+
+    hadError = false;
   }
 
   private static void run(String source) {
